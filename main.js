@@ -17,10 +17,8 @@ function todoAdd(){
     for (var i = 0; i < els.length; i++) {
         els[i].addEventListener('click', function () {
             this.parentNode.classList = "box has-text-centered animated bounceOut";
-            
-            setTimeout(function(){
-                els[i].parentNode.remove();
-            }, 3000)
+            this.parentNode.remove();
+
         });
     }
 }
