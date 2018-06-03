@@ -18,10 +18,6 @@ function todoAdd(){
         for (var i = 0; i < els.length; i++) {
             els[i].addEventListener('click', function () {
                 this.parentNode.classList = "box has-text-centered animated bounceOut";
-                function parentRemover(element){
-                    element.parentNode.remove();
-                }
-                
                 setTimeout(parentRemover(this), 3000);
 
             });
@@ -31,6 +27,10 @@ function todoAdd(){
     }
 }
 
+function parentRemover(element){
+    element.parentNode.remove();
+}
+                
 
 
 
