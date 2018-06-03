@@ -27,7 +27,7 @@ function todoAdd(){
 }
 
 function parentRemover(element){
-    this.parentNode.classList = "box has-text-centered animated bounceOut";
+    element.parentNode.classList = "box has-text-centered animated bounceOut";
     element.parentNode.remove();
 }
                 
