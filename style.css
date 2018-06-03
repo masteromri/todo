@@ -37,6 +37,9 @@ button{
     outline: none;
 }
 
+.fas{
+    color: #fff;
+}
 .fas:hover{
     color: rgb(88, 88, 88);
 }
