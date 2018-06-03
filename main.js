@@ -3,8 +3,7 @@ function todoAdd(){
     let inputText = input.value;
     if(inputText = "") {
         alert("Type a todo");
-    }
-    else{
+    } else {
         let newText = document.createTextNode(inputText);
         let div = document.createElement("div");
         div.appendChild(newText);
