@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.field.has-addons{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 0px;
+}
+
+.control.form{
+    width: 75%;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    flex-direction: column;
+}
+
+.box{
+    width: auto;
+    min-width: 50%;
+    height: auto;
+    font-size: 26px;
+}
+
+button{
+    float: right;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
+
+.fas:hover{
+    color: rgb(88, 88, 88);
+}
