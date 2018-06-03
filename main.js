@@ -1,6 +1,5 @@
 function todoAdd(){
     let input = document.getElementById("todoInput");
-    input.reset();
     let inputText = input.value;
     let newText = document.createTextNode(inputText);
     let div = document.createElement("div");
