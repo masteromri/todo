@@ -19,7 +19,7 @@ function todoAdd(){
             this.parentNode.classList = "box has-text-centered animated bounceOut";
             
             setTimeout(function(){
-                this.parentNode.remove();
+                els[i].parentNode.remove();
             }, 3000)
         });
     }
