@@ -1,7 +1,7 @@
 function todoAdd(){
+    let input = document.getElementById("todoInput");
+    let inputText = input.value;
     if (input.value !== "") {
-        let input = document.getElementById("todoInput");
-        let inputText = input.value;
         let newText = document.createTextNode(inputText);
         let div = document.createElement("div");
         div.appendChild(newText);
@@ -23,7 +23,7 @@ function todoAdd(){
             });
         }
     }else {
-        alert("You need to type a todo!")
+        alert("Please enter a task")
     }
 }
 
