@@ -1,6 +1,8 @@
 function todoAdd(){
-    let text = document.getElementById("todoInput").value;
-    let newText = document.createTextNode(text);
+    let input = document.getElementById("todoInput");
+    input.reset();
+    let inputText = input.value;
+    let newText = document.createTextNode(inputText);
     let div = document.createElement("div");
     div.appendChild(newText);
     div.classList = "box has-text-centered animated slideInDown";
@@ -12,7 +14,6 @@ function todoAdd(){
     removeButton.appendChild(removeIcon);
     div.appendChild(removeButton);
     var els = document.getElementsByTagName('button');
-
     for (var i = 0; i < els.length; i++) {
         els[i].addEventListener('click', function () {
             this.parentNode.remove();
