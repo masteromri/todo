@@ -12,6 +12,7 @@ function todoAdd(){
     let removeButton = document.createElement("button");
     removeButton.appendChild(removeIcon);
     div.appendChild(removeButton);
+    input.value = "";
     var els = document.getElementsByTagName('button');
     for (var i = 0; i < els.length; i++) {
         els[i].addEventListener('click', function () {
