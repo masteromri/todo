@@ -2,9 +2,6 @@ function todoAdd(){
     let input = document.getElementById("todoInput");
     let inputText = input.value;
     let newText = document.createTextNode(inputText);
-    if (newText = ""){
-        alert("Type a todo!")
-    }
     let div = document.createElement("div");
     div.appendChild(newText);
     div.classList = "box has-text-centered animated slideInDown";
